@@ -869,6 +869,15 @@ body {
   .masthead h1, .masthead .h1 {
     font-size: 4rem;
     line-height: 4rem;
+    letter-spacing: 0.8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .masthead h1, .masthead .h1 {
+    margin-left: 10px; /* Adjust left margin as needed */
+    margin-right: 10px; /* Adjust right margin as needed */
+    font-size: calc(2rem + 1.5vw); /* Keep the font size responsive */
+    letter-spacing: 0.5rem;
   }
 }
 @media (min-width: 992px) {
